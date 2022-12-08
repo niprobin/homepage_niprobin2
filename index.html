@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+            html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: lightsteelblue;
+    background-image: url('http://hdw.datawallpaper.com/architecture/vintage-new-york-city-299988.jpg');
+    background-position: center;
+    background-size: cover;
+    -webkit-background-blend-mode: overlay;
+    -moz-background-blend-mode: overlay;
+    background-blend-mode: overlay;
+}
+
+#navbar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: lightsteelblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#navbar li {
+    position: relative;
+    float: left;
+    line-height: 60px;
+    background: inherit;
+    text-align: center;
+    transition: all .2s;
+  box-sizing:border-box;
+  border:5px solid lightsteelblue;
+  border-radius:4px;
+  
+}
+
+#navbar li a {
+    position: relative;
+    display: block;
+    padding: 0 20px;
+    line-height: inherit;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar li:hover {
+  border:5px solid #fff;
+  transition: 1s ease-out all;
+  border-radius:4px;
+}
+
+        </style>
+        </head>
+        <body>
+            <ul id="navbar">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+</body>
+</html>
