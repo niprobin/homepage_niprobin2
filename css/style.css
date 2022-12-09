@@ -49,6 +49,11 @@
             border-radius: 15px;
             -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
             box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+            font-family: 'Varela Round', sans-serif;
+        }
+
+        .player p {
+            padding:15px;
         }
         
         iframe {
@@ -74,24 +79,16 @@
         }
         
         .song-info {
-            width: 300px;
-            padding-left: 30px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 15px auto 30px auto;
             font-family: 'Varela Round', sans-serif;
+            padding:2px;
+            text-align:center;
+            font-size:16px;
         }
         
-        .artist {
-            font-size: 32px;
-            margin-bottom: 10px;
+        #title {
+            font-family: 'Varela Round', sans-serif;
+            font-size:24px;
+            font-weight:bold;
+            padding:7px;
         }
         
-        .song {
-            font-size: 22px;
-        }
-        
-        .controls {
-            margin-bottom: 30px;
-        }

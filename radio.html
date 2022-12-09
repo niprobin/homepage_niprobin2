@@ -41,8 +41,8 @@
 		</div>-->
 
     <div class="player">
-        <div id="nowplaying-song"></div>
-        <div id="nowplaying-artist"></div>
+        <div id="title">Now Playing</div>
+        <div class="song-info" id="nowplaying"></div>
         <div class="controls">
             <button id="play" onclick="document.getElementById('player').play();document.getElementById('player').muted=false;">
 						<img src="https://img.icons8.com/material/48/000000/play-button-circled.png">
@@ -51,6 +51,10 @@
 						<img src="https://img.icons8.com/material/48/000000/circled-pause.png">
 					</button>
         </div>
+        <p>Current listeners: <span id="listeners"></span></p>
+        </div>
+        
+        
 
     
     <div class="player-container">
@@ -58,6 +62,7 @@
         <audio autoplay id="player" src="https://admin-radio.niprobin.com:8000/radio.mp3"></audio>
 
     </div>
+    
 
 
 

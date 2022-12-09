@@ -9,8 +9,8 @@ function loadNowPlaying() {
         success: function(np) {
             // Do something with the Now Playing data.
             nowPlaying = np;
-            $('#nowplaying-song').text(np.now_playing.song.title);
-            $('#nowplaying-artist').text(np.now_playing.song.artist);
+            $('#nowplaying').text(np.now_playing.song.text);
+            $('#listeners').text(np.listeners.current);
             nowPlayingTimeout = setTimeout(loadNowPlaying, 15000);
         }
     }).fail(function() {
