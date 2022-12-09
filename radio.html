@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Le Caisson | Web Radio</title>
+    <title>Web Radio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -41,19 +41,7 @@
 		</div>-->
 
     <div class="player">
-
-        <div class="artwork-img">
-            <img src="css/img/C.png" />
-        </div>
-        <div class="song-info">
-            <div class="labels">
-                <p>Song:</p>
-                <p>Artist:</p>
-            </div>
-            <iframe id="song_info" height="40" scrolling="no" src="https://admin.lecaisson.live/public/le_caisson/embed" frameborder="0" allowtransparency="true" style="overflow:hidden;width: 80%; border: 0;padding-left:20px;text-align:center;font-size:12px;"></iframe>
-
-        </div>
-
+        <div id="nowplaying-song"></div>
         <div class="controls">
             <button id="play" onclick="document.getElementById('player').play();document.getElementById('player').muted=false;">
 						<img src="https://img.icons8.com/material/48/000000/play-button-circled.png">
@@ -63,10 +51,10 @@
 					</button>
         </div>
 
-    </div>
+    
     <div class="player-container">
 
-        <audio autoplay id="player" src="https://admin.lecaisson.live:8000/radio.mp3?1554655142"></audio>
+        <audio autoplay id="player" src="http://admin-radio.niprobin.com:8000/radio.mp3"></audio>
 
     </div>
 
