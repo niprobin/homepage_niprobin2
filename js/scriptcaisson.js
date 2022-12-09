@@ -5,7 +5,7 @@ function loadNowPlaying() {
     $.ajax({
         cache: false,
         dataType: "json",
-        url: 'http://admin-radio.niprobin.com/api/nowplaying/gone',
+        url: 'https://admin-radio.niprobin.com/api/nowplaying/gone',
         success: function(np) {
             // Do something with the Now Playing data.
             nowPlaying = np;
