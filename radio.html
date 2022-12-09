@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Le Caisson | Web Radio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- <div class="hero-text-box">
+			<h1>LA WEB RADIO<br/>DU CAISSON</h1> 
+			
+		</div>-->
+
+    <div class="player">
+
+        <div class="artwork-img">
+            <img src="css/img/C.png" />
+        </div>
+        <div class="song-info">
+            <div class="labels">
+                <p>Song:</p>
+                <p>Artist:</p>
+            </div>
+            <iframe id="song_info" height="40" scrolling="no" src="https://admin.lecaisson.live/public/le_caisson/embed" frameborder="0" allowtransparency="true" style="overflow:hidden;width: 80%; border: 0;padding-left:20px;text-align:center;font-size:12px;"></iframe>
+
+        </div>
+
+        <div class="controls">
+            <button id="play" onclick="document.getElementById('player').play();document.getElementById('player').muted=false;">
+						<img src="https://img.icons8.com/material/48/000000/play-button-circled.png">
+					</button>
+            <button id="pause" onclick="document.getElementById('player').muted=true;">
+						<img src="https://img.icons8.com/material/48/000000/circled-pause.png">
+					</button>
+        </div>
+
+    </div>
+    <div class="player-container">
+
+        <audio autoplay id="player" src="https://admin.lecaisson.live:8000/radio.mp3?1554655142"></audio>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/scriptcaisson.js"></script>
+
+</body>
+
+</html>

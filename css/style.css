@@ -1,0 +1,97 @@
+        /* color: #f9ca24 */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        button {
+            background-color: transparent;
+            box-shadow: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+        button:focus {
+            outline: 0;
+        }
+        
+        html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            background: #bcdee7;
+        }
+        
+        .hero-text-box {
+            margin: 20px auto;
+            text-align: center;
+        }
+        
+        .player {
+            width: 300px;
+            margin: 0 auto;
+            padding-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            background-color: #fff;
+            border-radius: 15px;
+            -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+        }
+        
+        iframe {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        .artwork-img {
+            width: 280px;
+            height: 280px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        
+        .artwork-img img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 10px 6px -6px #a9a9a9;
+            display: block;
+            max-width: 100%;
+        }
+        
+        .song-info {
+            width: 300px;
+            padding-left: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px auto 30px auto;
+            font-family: 'Varela Round', sans-serif;
+        }
+        
+        .artist {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .song {
+            font-size: 22px;
+        }
+        
+        .controls {
+            margin-bottom: 30px;
+        }
