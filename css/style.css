@@ -26,7 +26,7 @@
         
         body {
             height: 100%;
-            background:  lightsteelblue;
+            background:  #222;
         }
 
         #navbar {
@@ -38,7 +38,6 @@
             margin: 0;
             padding: 0;
             list-style: none;
-            background: lightsteelblue;
             font-family: 'Oswald', sans-serif;
             font-size: 18px;
             font-weight: 300;
@@ -52,7 +51,7 @@
             text-align: center;
             transition: all .2s;
           box-sizing:border-box;
-          border:2px solid lightsteelblue;
+          border:2px solid transparent;
           border-radius:4px;
           margin:5px;
           
@@ -77,11 +76,11 @@
             background-color:#fff;
             border:2px solid #fff;
             border-radius:4px;
-            color:lightsteelblue;
+            color:#0d1b2a;
         }
 
         #navbar .active a {
-            color:rgb(19, 84, 170);
+            color:#0d1b2a;
         }
         
         
@@ -93,8 +92,8 @@
         .player {
             font-family: 'Varela Round', sans-serif;
             text-align: center;
-            background-color: #fff;
-            color: #333;
+            background-color: #111;
+            color: #fff;
             padding: 10px; 
             position: absolute;
             bottom: 0px;
@@ -105,16 +104,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-        }
-
-        .player p {
-            padding:15px;
-        }
-        
-        iframe {
-            width: 80%;
-            margin: 0 auto;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         }
         
         .song-info {
@@ -129,4 +119,18 @@
             padding:7px;
         }
         
+        .icons {width:40px;}
         
+        #box {
+            position: relative;
+            top: 30%;
+            margin: -10px auto;
+            /* -height/2 */
+            width: 800px;
+            background-color: black;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+          }
+
+          #box img {
+            width:100%;
+          }
