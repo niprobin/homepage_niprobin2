@@ -21,14 +21,11 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            height: 100%;
         }
         
         body {
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            flex-direction: column;
+            height: 100%;
             background:  lightsteelblue;
         }
 
@@ -94,18 +91,21 @@
         }
         
         .player {
-            width: 300px;
-            margin: 0 auto;
-            padding-top: 10px;
+            font-family: 'Varela Round', sans-serif;
+            text-align: center;
+            background-color: #fff;
+            color: #333;
+            padding: 10px; 
+            position: absolute;
+            bottom: 0px;
+            margin:1%;
+            display:block;
+            width:98%;
+            /* old */
             display: flex;
             justify-content: space-between;
             align-items: center;
-            flex-direction: column;
-            background-color: #fff;
-            border-radius: 15px;
-            -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
-            font-family: 'Varela Round', sans-serif;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
         }
 
         .player p {
@@ -117,34 +117,16 @@
             margin: 0 auto;
         }
         
-        .artwork-img {
-            width: 280px;
-            height: 280px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 30px;
-        }
-        
-        .artwork-img img {
-            width: 100%;
-            border-radius: 15px;
-            box-shadow: 0 10px 6px -6px #a9a9a9;
-            display: block;
-            max-width: 100%;
-        }
-        
         .song-info {
-            font-family: 'Varela Round', sans-serif;
             padding:2px;
             text-align:center;
-            font-size:16px;
+            font-size:18px;
         }
         
         #title {
-            font-family: 'Varela Round', sans-serif;
             font-size:24px;
             font-weight:bold;
             padding:7px;
         }
+        
         
